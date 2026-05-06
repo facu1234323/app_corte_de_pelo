@@ -46,7 +46,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- LÓGICA DE LA IA ---
-os.environ["REPLICATE_API_TOKEN"] = "r8_082z1BMJmeIJHVhAGXNQJ9JoINhPpgk1zTCLt"
+os.environ["REPLICATE_API_TOKEN"] = st.secrets["REPLICATE_API_TOKEN"]
 
 def mandar_prompt(imagen_bytes, instruccion_final):
     try:
