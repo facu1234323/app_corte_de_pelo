@@ -15,185 +15,294 @@ descripciones = {"Corte de Barba":'I want the haircut to have a sleek, straight-
 catálogo_cortes = {
     # --- FILA 1 ---
     "Corte de Barba": (
-         "pelado"
+        "ESTILO: Modern Quiff con Mid Fade integrado a barba regia. "
+        "DIRECCIÓN: Proyección vertical con torsión oblicua hacia la izquierda en el flequillo. "
+        "TIPO DE PELO: Lacio, grosor medio, densidad folicular alta. "
+        "LONGITUD Y ALTURA: Superior media-larga (6-7 cm), laterales desvanecidos desde el 1.5 al 3. "
+        "TEXTURA Y COLOR: Acabado mate, texturizado seco; color negro azabache. "
+        "ELEGANCIA Y DESTINO: Elegancia vanguardista. Ideal para entornos urbanos premium, "
+        "industrias creativas y eventos nocturnos formales que requieran distinción moderna."
     ),
     "Cabello Largo": (
-        "Melena larga de caída libre que se extiende hasta los hombros, dividida de forma simétrica por una "
-        "raya en medio perfectamente definida. Presenta ondas naturales fluidas en el tercio inferior, con "
-        "mechones frontales que caen de forma orgánica hacia los lados y puntas texturizadas con movimiento."
+        "ESTILO: Melena Completa Clásica (Classic Mane). "
+        "DIRECCIÓN: Caída libre bilateral con distribución simétrica desde una raya al medio exacta. "
+        "TIPO DE PELO: Ondulado leve (2A), grosor fino-medio, densidad media con excelente caída. "
+        "LONGITUD Y ALTURA: Cabello largo homogéneo que alcanza la base de los trapecios (25-30 cm). "
+        "TEXTURA Y COLOR: Textura sedosa con brillo natural; color castaño oscuro profundo. "
+        "ELEGANCIA Y DESTINO: Elegancia bohemia e intelectual. Perfecto para entornos artísticos, "
+        "galerías de arte, desfiles de moda y eventos de etiqueta alternativa o casual premium."
     ),
     "Desvanecido": (
-        "Vista de perfil que expone un degradado alto (High Fade) pulido al milímetro, que descubre la piel "
-        "por encima de la oreja. La zona superior exhibe un copete estilizado (estilo Pompadour) de longitud "
-        "media-larga, peinado verticalmente con un sutil quiebre hacia atrás y volumen estructurado desde la raíz."
+        "ESTILO: Executive Pompadour con High Fade (Desvanecido Alto). "
+        "DIRECCIÓN: Elevación frontal de raíz y direccionamiento curvo hacia la zona occipital. "
+        "TIPO DE PELO: Lacio rígido, grosor grueso, densidad muy alta. "
+        "LONGITUD Y ALTURA: Bloque superior largo (8-10 cm), laterales rasurados con técnica skin fade que expone la zona parietal superior. "
+        "TEXTURA Y COLOR: Acabado ultra pulido con pomada de fijación fuerte y brillo medio; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Máxima elegancia corporativa. Diseñado para reuniones de alta dirección, bodas de gala y entornos financieros de etiqueta estricta."
     ),
     "Cresta Alta": (
-        "Corte de estilo Faux Hawk (cresta falsa) de gran impacto. Los paneles laterales se presentan "
-        "sumamente cortos con un degradado alto y nítido. El bloque central de cabello se eleva de forma cónica, "
-        "convergiendo en puntas afiladas y esculpidas que se proyectan hacia adelante desde la coronilla hasta la frente."
+        "ESTILO: Avant-Garde Faux Hawk (Cresta Falsa Estilizada). "
+        "DIRECCIÓN: Convergencia bilateral hacia el eje central con proyección apical hacia adelante. "
+        "TIPO DE PELO: Lacio grueso con alta resiliencia y memoria de fijación. "
+        "LONGITUD Y ALTURA: Corona central de longitud decreciente (de 7 cm al frente a 3 cm en coronilla), laterales con desvanecido alto al número 0. "
+        "TEXTURA Y COLOR: Textura esculpida en picos definidos, acabado mate; color negro carbón. "
+        "ELEGANCIA Y DESTINO: Elegancia disruptiva y urbana. Destinado a alfombras rojas de la cultura pop, eventos de moda urbana y perfiles deportivos de alto nivel."
     ),
     "Pelo Corto Desordenado": (
-        "Cabello de longitud corta-media con un acabado altamente texturizado y desfilado en la zona superior, "
-        "creando mechones multidireccionales con efecto mate y movimiento desenfadado. Los laterales y la nuca "
-        "están rebajados a máquina con una transición suave y patillas cortas."
+        "ESTILO: Messy Textured Crop. "
+        "DIRECCIÓN: Multidireccional y desestructurado en la corona, con el flequillo ligeramente orientado al frente. "
+        "TIPO DE PELO: Lacio o levemente ondulado, grosor medio, densidad media-alta. "
+        "LONGITUD Y ALTURA: Superior corto-medio (4-5 cm) entresacado con tijera de esculpir; laterales cónicos rebajados a máquina al número 2. "
+        "TEXTURA Y COLOR: Textura desfilada, aspecto orgánico y mate; color castaño oscuro natural. "
+        "ELEGANCIA Y DESTINO: Elegancia casual informal. Ideal para el día a día, ambientes universitarios, agencias de publicidad y código de vestimenta smart-casual relajado."
     ),
     "Mechones Largos": (
-        "Corte de longitud media de estilo clásico 'curtain haircut' (corte de cortina). El cabello se distribuye "
-        "con fluidez hacia ambos lados desde una raya central superior, mostrando mechones lisos y pesados que caen "
-        "verticalmente, con las puntas sutilmente desfiladas hacia el interior."
+        "ESTILO: Classic Curtain Haircut (Corte de Cortina noventero). "
+        "DIRECCIÓN: Apertura simétrica en forma de arco desde la línea media, cayendo hacia los pómulos. "
+        "TIPO DE PELO: Lacio dócil, grosor fino, densidad media con caída pesada. "
+        "LONGITUD Y ALTURA: Longitud media (12-14 cm) en la zona del flequillo, disminuyendo sutilmente hacia la nuca media. "
+        "TEXTURA Y COLOR: Acabado satinado, suave y sin peso; color castaño oscuro con reflejos fríos. "
+        "ELEGANCIA Y DESTINO: Elegancia juvenil y sofisticada. Va perfecto en pasarelas, producciones fotográficas, eventos de diseño y ambientes semi-formales relajados."
     ),
     "Corte de Cepillo": (
-        "Corte estilo Crew Cut de precisión. La zona superior mantiene una longitud corta y uniforme, peinada "
-        "levemente hacia el frente con la línea frontal cepillada hacia arriba en un ángulo limpio. Los laterales "
-        "y la nuca se desvanecen de forma progresiva con un degradado medio."
+        "ESTILO: Precision Crew Cut (Corte de Cepillo Americano). "
+        "DIRECCIÓN: Peinado sutilmente hacia el frente con la línea frontal cepillada verticalmente a 90 grados. "
+        "TIPO DE PELO: Lacio y extremadamente grueso/rebelde, densidad folicular muy alta. "
+        "LONGITUD Y ALTURA: Zona superior ultra corta y decreciente (de 2.5 cm a 1 cm), laterales con desvanecido medio (Mid Fade). "
+        "TEXTURA Y COLOR: Textura densa, compacta y uniforme de acabado limpio; color negro. "
+        "ELEGANCIA Y DESTINO: Elegancia minimalista y atlética. Ideal para el ámbito deportivo de élite, cuerpos de seguridad, negocios tradicionales o climas cálidos de alta exigencia."
     ),
     "Peinado Hacia Lado": (
-        "Peinado ejecutivo clásico con una raya lateral izquierda profundamente definida. El bloque de cabello "
-        "superior está direccionado de manera impecable hacia la derecha con un acabado pulido, liso y plano. "
-        "Los laterales muestran un corte clásico con tijera que disminuye su longitud de forma armónica hacia las orejas."
+        "ESTILO: Traditional Side Part (Raya al Lado Ejecutiva). "
+        "DIRECCIÓN: Partición profunda en el lado izquierdo y direccionamiento chato y pulido hacia el lado derecho. "
+        "TIPO DE PELO: Lacio u ondulado fino, grosor medio, densidad alta controlada. "
+        "LONGITUD Y ALTURA: Longitud superior media (6 cm) acoplada a la curvatura craneal, laterales clásicos pulidos a tijera sobre peine (número 3-4). "
+        "TEXTURA Y COLOR: Textura húmeda y compacta, fijación con gomina de alto brillo; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia clásica impecable. Excelente para bodas tradicionales, audiencias legales, diplomacia y cenas de gala benéficas."
     ),
     "Atrás Desvanecido": (
-        "Estilo Slick Back moderno de alto contraste. El cabello de la zona superior posee una longitud considerable "
-        "y se proyecta en su totalidad hacia atrás con volumen controlado y fijación firme. Los laterales están "
-        "trabajados con un degradado medio (Mid Fade) que estiliza la estructura craneal."
+        "ESTILO: Modern Slick Back con Mid Fade. "
+        "DIRECCIÓN: Peinado unidireccional recto hacia la nuca con sobreelevación volumétrica en el área frontal. "
+        "TIPO DE PELO: Lacio dócil o moldeado, grosor medio-grueso, densidad alta. "
+        "LONGITUD Y ALTURA: Superior largo (9-11 cm) para asegurar la transición, laterales con desvanecido medio pulido. "
+        "TEXTURA Y COLOR: Acabado semibrillante, peinado con peine de dientes anchos que marca líneas; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia contemporánea de alto impacto. Destinado a cenas de negocios VIP, galas nocturnas modernas y entornos cosmopolitas sofisticados."
     ),
     "Recogido Atrás": (
-        "Masa capilar larga y densa, traccionada por completo hacia la zona occipital media para formar un "
-        "moño recogido (man bun) compacto, limpio y libre de cabellos sueltos. Se complementa en la zona inferior "
-        "con una barba corta de tres días de longitud uniforme y contornos naturales."
+        "ESTILO: Sleek Man Bun (Moño Alto Recogido). "
+        "DIRECCIÓN: Tracción total concéntrica de 360 grados orientada hacia el vértice superior-occipital. "
+        "TIPO DE PELO: Lacio u ondulado largo, grosor medio, alta densidad capilar. "
+        "LONGITUD Y ALTURA: Longitud extrema unificada (mínimo 20 cm) comprimida en un rodete compacto; laterales limpios. "
+        "TEXTURA Y COLOR: Superficie craneal pulida y libre de frizz, acabado satinado natural; color negro profundo. "
+        "ELEGANCIA Y DESTINO: Elegancia alternativa minimalista. Va orientado a eventos de alta moda, festivales de cine, entornos corporativos modernos/tech y situaciones casuales elegantes."
     ),
 
     # --- FILA 2 ---
     "Cabello Rizado Liso": (
-        "Estructura capilar afro corta y compacta. Presenta una textura de rizos densos, pequeños y cerrados "
-        "que se expanden de forma simétrica creando una silueta esférica y uniforme en la parte superior, "
-        "acompañada de laterales sutilmente rebajados para mantener la proporción de la corona."
+        "ESTILO: Compact Rounded Afro. "
+        "DIRECCIÓN: Expansión radial multidireccional tridimensional (3D) desde el cuero cabelludo. "
+        "TIPO DE PELO: Rizado afro muy cerrado (4C), grosor grueso, densidad folicular extrema. "
+        "LONGITUD Y ALTURA: Longitud uniforme corta (3-4 cm) esculpida geométricamente en silueta esférica. "
+        "TEXTURA Y COLOR: Textura esponjosa, opaca y densa de alta absorción lumínica; color negro azabache. "
+        "ELEGANCIA Y DESTINO: Elegancia étnica urbana refinada. Perfecto para presentaciones artísticas, desfiles de street-wear de lujo y eventos culturales de gala."
     ),
     "Militar Corto": (
-        "Corte Buzz Cut tradicional ejecutado a una longitud ultra corta y uniforme en toda la cabeza (número 1 "
-        "o 1.5). Destaca por la máxima precisión geométrica en los contornos, mostrando una línea frontal y sienes "
-        "delineadas de forma quirúrgica en ángulos rectos."
+        "ESTILO: High Geometric Buzz Cut. "
+        "DIRECCIÓN: Sin dirección (longitud menor al límite de peinado), totalmente uniforme. "
+        "TIPO DE PELO: Indistinto, ideal para cabellos gruesos y densos que marcan la línea de implantación. "
+        "LONGITUD Y ALTURA: Rapado milimétrico general (número 1), con contornos periféricos rectificados con navaja (Line-Up). "
+        "TEXTURA Y COLOR: Textura rasposa, micro-texturizada, acabado mate absoluto; color negro. "
+        "ELEGANCIA Y DESTINO: Elegancia minimalista y severa. Adecuado para un estilo de vida de alto rendimiento, militares, deportistas de combate o pasarelas de vanguardia industrial."
     ),
     "Hacia Arriba": (
-        "Cabello corto esculpido en picos verticales (estilo Spiky). La zona superior está texturizada en bloques "
-        "angulares orientados hacia el centro y arriba con un producto de fijación fuerte. Los laterales muestran "
-        "un desvanecido alto con patillas terminadas en punta fina."
+        "ESTILO: Textured Spiky Hair con High Fade. "
+        "DIRECCIÓN: Elevación verticalizada e individualizada de mechones en la cúspide craneal. "
+        "TIPO DE PELO: Lacio rebelde o grueso con gran soporte estructural. "
+        "LONGITUD Y ALTURA: Superior corto-medio (4-5 cm) desfilado en puntas, laterales desvanecidos al cero alto. "
+        "TEXTURA Y COLOR: Textura puntiaguda definida con cera de arcilla (Clay) de acabado extra mate; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia juvenil dinámica. Diseñado para clubes nocturnos premium, eventos informales de alta gama y perfiles del mundo del entretenimiento."
     ),
     "Arriba Textura": (
-        "Variación de peinado corto elevado. La zona superior presenta un denso trabajo de entresacado que genera "
-        "textura en capas cortas, peinadas hacia adelante y hacia arriba en la frente. Los laterales están "
-        "recortados limpiamente con una transición sutil de longitud hacia la base."
+        "ESTILO: Modern Textured Top con Taper Fade. "
+        "DIRECCIÓN: Direccionamiento hacia adelante superpuesto en capas con flequillo elevado en la punta. "
+        "TIPO DE PELO: Lacio u ondulado, grosor medio, densidad alta que requiere control de peso. "
+        "LONGITUD Y ALTURA: Zona superior media (5-6 cm) con entresacado profundo, laterales limpios con conicidad baja. "
+        "TEXTURA Y COLOR: Textura desordenada y fragmentada, acabado mate natural; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia urbana contemporánea. Muy versátil, ideal para ejecutivos jóvenes, agencias de marketing y viajes de negocios en fines de semana."
     ),
 
     # --- FILA 3 ---
     "Mechones Largos 2": (
-        "Cabello de longitud media-larga con una partición orgánica y ligeramente descentrada. Mechones gruesos "
-        "con ondas naturales de calibre medio caen libremente hacia los costados superando la línea de la mandíbula, "
-        "exhibiendo un volumen fluido, cuerpo y un movimiento natural texturizado."
+        "ESTILO: Mid-Length Wavy Flow. "
+        "DIRECCIÓN: Caída natural libre hacia los laterales a partir de una raya desestructurada y sutilmente ladeada. "
+        "TIPO DE PELO: Ondulado con cuerpo (2B), grosor medio, densidad media con volumen elástico. "
+        "LONGITUD Y ALTURA: Longitud media extendida (15-18 cm) sobrepasando el plano de los lóbulos auriculares. "
+        "TEXTURA Y COLOR: Textura ondulada definida con crema de peinado, brillo natural; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia informal distinguida. Va dirigido a resorts de lujo, eventos de polo/náutica, cenas al aire libre y ambientes creativos de alto standing."
     ),
     "Rizado Liso 2": (
-        "Estilo ondulado de longitud media con textura relajada. El cabello de la parte superior está direccionado "
-        "hacia atrás y levemente inclinado a la izquierda, permitiendo que rizos abiertos y bucles suaves se abran "
-        "y caigan de manera natural hacia los laterales con volumen ligero."
+        "ESTILO: Messy Layered Waves. "
+        "DIRECCIÓN: Desplazamiento oblicuo hacia atrás y hacia el lateral izquierdo con volumen fluido. "
+        "TIPO DE PELO: Ondulado cerrado o rizado abierto (2C/3A), grosor medio, densidad media-alta. "
+        "LONGITUD Y ALTURA: Superior de longitud media (8-10 cm) en capas decrecientes hacia los lados y nuca baja. "
+        "TEXTURA Y COLOR: Textura de bucles sueltos, acabado hidratado con volumen ligero; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia casual refinada. Ideal para el sector de la moda, eventos sociales semi-formales de tarde y entornos profesionales con códigos flexibles."
     ),
     "Afro Largo": (
-        "Corte Afro clásico de máxima densidad y volumen. Presenta una distribución geométrica perfectamente esférica "
-        "y expandida, estructurada a base de rizos hiper-densos, compactos y elásticos que mantienen una forma "
-        "redonda impecable desde cualquier ángulo."
+        "ESTILO: Majestic Large Afro (Afro Esférico de Gran Volumen). "
+        "DIRECCIÓN: Proyección radial omnidireccional masiva desde el epicentro del cuero cabelludo. "
+        "TIPO DE PELO: Rizado helicoidal denso (4A/4B), grosor medio, densidad folicular masiva. "
+        "LONGITUD Y ALTURA: Longitud unificada de gran formato (12-15 cm de radio periférico uniforme). "
+        "TEXTURA Y COLOR: Textura algodonosa, compacta y esponjosa de alta opacidad; color negro mate. "
+        "ELEGANCIA Y DESTINO: Máxima elegancia cultural e identitaria. Ideal para galas artísticas internacionales, eventos de activismo premium y galas de diseño independiente."
     ),
     "Militar Corto 2": (
-        "Corte estilo High and Tight (Alto y Ajustado) de precisión militar. La porción superior es sumamente corta, "
-        "plana y compacta, mientras que los laterales y la nuca se conectan de inmediato con un desvanecido total "
-        "a la piel (Skin Fade), manteniendo la línea frontal recta."
+        "ESTILO: High and Tight Flattop. "
+        "DIRECCIÓN: Estructura plana superior horizontal (Flat-Top) sin dirección de peinado. "
+        "TIPO DE PELO: Lacio ultra grueso de alta rigidez vertical. "
+        "LONGITUD Y ALTURA: Superior extremadamente corta e idéntica en nivel horizontal (1.5 cm), laterales rasurados a piel (Skin Fade) altos. "
+        "TEXTURA Y COLOR: Textura milimétrica, densa, compacta, acabado mate; color negro. "
+        "ELEGANCIA Y DESTINO: Elegancia rígida y disciplinada. Adecuado para perfiles corporativos de seguridad corporativa, atletas de alto rendimiento o eventos temáticos retro-futuristas."
     ),
     "Largo de Capas": (
-        "Melena larga de textura completamente lacia que se extiende por debajo de la línea de los hombros. "
-        "Está estructurada mediante un sutil corte en capas en las puntas para aligerar el peso, distribuida "
-        "equitativamente a ambos lados a partir de una raya al medio exacta."
+        "ESTILO: Long Layered Straight Hair. "
+        "DIRECCIÓN: Caída vertical plomada y rectilínea distribuida simétricamente desde una raya central. "
+        "TIPO DE PELO: Lacio absoluto (1A), grosor medio-grueso, densidad alta con caída pesada. "
+        "LONGITUD Y ALTURA: Longitud muy larga que sobrepasa las clavículas (35 cm) con capas invisibles en los extremos. "
+        "TEXTURA Y COLOR: Textura ultra lisa, pulida, con alta refracción lumínica (brillante); color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia vanguardista y andrógina. Perfecto para el sector del modelaje de alta costura, eventos de gala de diseño industrial y alfombras rojas."
     ),
     "Desvanecido Bajo": (
-        "Corte de estructura cuadrada en la zona superior, con el cabello corto-medio peinado de manera compacta "
-        "hacia el frente y un flequillo recto. Los laterales presentan un degradado bajo (Low Fade) impecable que "
-        "limpia exclusivamente el perímetro de la oreja y la nuca baja."
+        "ESTILO: Modern French Crop con Low Fade. "
+        "DIRECCIÓN: Proyección unificada hacia el frente culminando en un flequillo horizontal romo sobre la frente. "
+        "TIPO DE PELO: Lacio denso, grosor medio-grueso, implantación frontal baja. "
+        "LONGITUD Y ALTURA: Superior corto-medio (4-5 cm) denso, laterales limpios con degradado bajo que bordea solo la oreja. "
+        "TEXTURA Y COLOR: Textura maciza y compacta de bloque, acabado mate; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia urbana minimalista. Ideal para diseñadores gráficos, arquitectos, eventos de cultura digital y el día a día smart-casual de oficina moderna."
     ),
     "Casual Texturizado": (
-        "Corte texturizado de estilo urbano contemporáneo. La corona y la zona superior muestran capas cortas "
-        "superpuestas que aportan un volumen desordenado y direccionado hacia el frente en puntas suaves. Los laterales "
-        "se mantienen cortos, limpios y pegados al cráneo."
+        "ESTILO: Textured Short Caesar Cut. "
+        "DIRECCIÓN: Peinado hacia el frente en capas cortas entrelazadas con flequillo texturizado irregular. "
+        "TIPO DE PELO: Lacio u ondulado, grosor fino-medio, densidad media. "
+        "LONGITUD Y ALTURA: Superior corto (3-4 cm) vaciado con navaja, laterales cónicos cortos integrados al número 2. "
+        "TEXTURA Y COLOR: Textura plumosa con micro-capas, acabado mate con volumen aireado; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia práctica y funcional. Excelente para el ritmo diario de negocios, ejecutivos comerciales en constante movimiento y ambientes corporativos relajados."
     ),
     "Undercut Peinado": (
-        "Corte desconectado de alto contraste. Los laterales y la nuca están rasurados uniformemente a una longitud "
-        "mínima sin degradado (Undercut puro), mientras que el bloque superior largo se peina de forma compacta, "
-        "plana y pulida hacia el lado derecho, acentuando la línea de desconexión."
+        "ESTILO: Disconnected Undercut con Side Sweep. "
+        "DIRECCIÓN: Barrido lateral compacto hacia la derecha con desconexión total respecto al panel parietal. "
+        "TIPO DE PELO: Lacio dócil, grosor medio, densidad alta que permite un aplastamiento pulcro. "
+        "LONGITUD Y ALTURA: Superior largo (8-10 cm), laterales y nuca rasurados uniformemente a máquina al número 1 sin degradar (bloque sólido). "
+        "TEXTURA Y COLOR: Textura lisa, compacta, acabado satinado con pomada clásica; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia hípster/alternativa sofisticada. Destinado a inauguraciones de locales premium, festivales de diseño y reuniones sociales vanguardistas."
     ),
 
     # --- FILA 4 ---
     "Corte de Barba 2": (
-        "Diseño de barba completa de gran longitud, esculpida con líneas de mejilla rectas y un acabado inferior "
-        "plano, denso e hiper-perfilado de forma cuadrada. El cabello de la cabeza se mantiene corto, con "
-        "textura superior orientada al frente y laterales integrados en degradado hacia la patilla."
+        "ESTILO: Heavy Beard Styling con Short Crop. "
+        "DIRECCIÓN: Superior peinado hacia adelante con elevación milimétrica en el nacimiento del flequillo. "
+        "TIPO DE PELO: Lacio grueso en cabeza, cabello de barba de densidad extrema y patrón rizado denso. "
+        "LONGITUD Y ALTURA: Cabello muy corto (3 cm), barba de gran formato esculpida a 10 cm con base horizontal plana. "
+        "TEXTURA Y COLOR: Textura superior mate y compacta; barba hidratada con aceite, acabado pulcro; color negro. "
+        "ELEGANCIA Y DESTINO: Elegancia rústica premium (Lumbersexual de lujo). Va perfecto para barberías boutique, eventos gastronómicos gourmet y convenciones de negocios de industrias tradicionales."
     ),
     "Corte de Bargo": (
-        "Estructura capilar clásica con cabello superior corto-medio peinado con volumen hacia atrás y sutilmente "
-        "hacia la derecha. Se integra de manera fluida con una barba completa de longitud media, densa y con "
-        "contornos delineados con precisión tanto en las mejillas como en la línea del cuello."
+        "ESTILO: Classic Executive Contour con Barba Completa Media. "
+        "DIRECCIÓN: Diagonal hacia atrás y levemente hacia el lado derecho con volumen sutil en el copete. "
+        "TIPO DE PELO: Lacio u ondulado grueso, densidad folicular alta y homogénea. "
+        "LONGITUD Y ALTURA: Superior medio (5-6 cm), laterales rebajados con tijera en técnica clásica, barba de 3 cm cuadrada. "
+        "TEXTURA Y COLOR: Acabado natural de fijación flexible (cera base agua), brillo bajo; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia tradicional señorial. Perfecto para directores de empresas, cenas de gala benéficas, clubes de campo y ambientes profesionales conservadores."
     ),
     "Desvanecido Bajo 2": (
-        "Corte estilo French Crop texturizado. La porción superior se proyecta totalmente hacia adelante, finalizando "
-        "en un flequillo corto, denso y de corte horizontal recto en la frente. Los laterales se definen mediante "
-        "un degradado bajo que conserva grosor en la zona parietal superior."
+        "ESTILO: Heavy Textured Crop con Low Skin Fade. "
+        "DIRECCIÓN: Direccionamiento masivo hacia adelante desde la coronilla con flequillo recto texturizado. "
+        "TIPO DE PELO: Lacio hiper-denso, grosor muy grueso, alta resistencia. "
+        "LONGITUD Y ALTURA: Bloque superior de 5 cm con peso visual, laterales desvanecidos a piel exclusivamente en el perímetro bajo. "
+        "TEXTURA Y COLOR: Textura pesada y aserrada en las puntas, acabado mate tiza; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia urbana contemporánea de alta fidelidad. Ideal para productores musicales, fotógrafos de moda y eventos de arte contemporáneo de vanguardia."
     ),
     "Desvanecido Bajo 3": (
-        "Corte texturizado corto con picos definidos y desfilados en la zona superior, orientados hacia la frente. "
-        "Los laterales y la nuca muestran un degradado bajo-medio (Low-Mid Fade) que limpia las patillas y se conecta "
-        "con suavidad hacia la densidad de la coronilla."
+        "ESTILO: Short Spiky Caesar con Drop Fade. "
+        "DIRECCIÓN: Peinado hacia el frente con puntas desfiladas hacia arriba en la línea frontal. "
+        "TIPO DE PELO: Lacio rígido, grosor medio, densidad alta con nacimiento hacia adelante. "
+        "LONGITUD Y ALTURA: Superior corto (3-4 cm) entresacado, laterales degradados con caída curva detrás de la oreja (Drop Fade). "
+        "TEXTURA Y COLOR: Textura de picos suaves dispersos, acabado mate; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia casual dinámica y deportiva. Ideal para viajes, actividades físicas de alto rendimiento y el día a día en oficinas tecnológicas."
     ),
     "Casual Texturizado 2": (
-        "Diseño de cabello corto con capas superiores densas trabajadas a tijera para generar una textura suave, "
-        "peinada hacia adelante de manera casual y orgánica. Los laterales y contornos están rebajados de forma "
-        "uniforme, manteniendo patillas clásicas de grosor medio."
+        "ESTILO: Organic Short Layers (Corte Clásico Texturizado Suave). "
+        "DIRECCIÓN: Peinado sutil hacia adelante con caída natural y orgánica de los mechones en la frente. "
+        "TIPO DE PELO: Lacio fino o medio, dócil, densidad media que busca volumen visual. "
+        "LONGITUD Y ALTURA: Superior medio-corto (4 cm) cortado enteramente a tijera, laterales clásicos cónicos al número 3. "
+        "TEXTURA Y COLOR: Textura suave, fluida y con movimiento libre, acabado natural sin producto pesado; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia sobria, discreta y cotidiana (estilo 'Quiet Luxury'). Perfecto para profesionales de la salud, académicos, reuniones familiares elegantes y el día a día de oficina."
     ),
     "Clásico Hacia Lado": (
-        "Peinado formal de etiqueta con una raya lateral izquierda sumamente nítida. El cabello superior está pulido "
-        "hacia el lado derecho y ligeramente hacia atrás con un acabado brillante de alta fijación (pomada efecto húmedo). "
-        "Los laterales están recortados de manera clásica con tijera sobre peine."
+        "ESTILO: Wet-Look Gentleman's Part (Peinado de Época Impecable). "
+        "DIRECCIÓN: Raya lateral izquierda nítida trazada con peine; bloque superior direccionado a la derecha en plano perfecto. "
+        "TIPO DE PELO: Lacio dócil, grosor fino o medio, densidad alta controlada. "
+        "LONGITUD Y ALTURA: Superior medio (5-6 cm) adaptado al cráneo, laterales pulidos de forma clásica decreciente con tijera. "
+        "TEXTURA Y COLOR: Textura hiper-compacta de efecto espejo, acabado de brillo húmedo (pomada al óleo); color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Máxima elegancia histórica/formal. Es el corte por excelencia para bodas de etiqueta formal (Black Tie), óperas, recepciones diplomáticas y eventos históricos."
     ),
     "Barba Completa": (
-        "Barba majestuosa de gran densidad esculpida geométricamente en forma de cuña o 'pico' pronunciado hacia "
-        "el mentón, con líneas de pómulo impecables. El cabello de la cabeza se mantiene extremadamente corto "
-        "y degradado a la piel, creando un contraste radical con la opulencia de la barba."
+        "ESTILO: Extreme Contrast (Skin Fade Alto con Barba de Cuña). "
+        "DIRECCIÓN: Cabello superior inexistente por rapado absoluto; barba con peinado vertical descendente hacia el pico del mentón. "
+        "TIPO DE PELO: Cabello ausente (calvicie intencional o rapado); barba hiper-densa, gruesa y compacta. "
+        "LONGITUD Y ALTURA: Cabeza al número 0 (cuchilla/shaver), barba de gran formato (12-14 cm) perfilada en punta afilada. "
+        "TEXTURA Y COLOR: Cuero cabelludo pulido satinado; barba tratada con bálsamo de brillo moderado; color negro con matices. "
+        "ELEGANCIA Y DESTINO: Elegancia audaz y masculina de alto perfil. Diseñado para entornos VIP nocturnos, empresarios del sector del entretenimiento de lujo y eventos de moda transgresora."
     ),
     "Undercut Peinado 2": (
-        "Estructura Undercut de laterales muy rebajados a máquina. El bloque superior, de longitud considerable, "
-        "se peina hacia atrás y hacia el lado derecho de forma diagonal, logrando un volumen elevado en la zona del "
-        "flequillo mediante técnicas de soplado (secador) y fijación estructurada."
+        "ESTILO: Voluminous Overcut (Pompadour Desconectado). "
+        "DIRECCIÓN: Proyección en diagonal hacia atrás y a la derecha con gran elevación neumática (volumen por secador) en el frente. "
+        "TIPO DE PELO: Lacio grueso o moldeado con volumen natural, densidad alta. "
+        "LONGITUD Y ALTURA: Superior extra largo (10-12 cm) para generar el arco del copete; laterales con undercut rasurado corto uniforme. "
+        "TEXTURA Y COLOR: Textura aireada pero firme, fijación con laca mate de alta resistencia; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia audaz de alta costura. Ideal para estilistas, diseñadores de interiores, galas de premios modernos y eventos nocturnos de alta alcurnia cosmopolita."
     ),
 
     # --- ESTILOS COMPLEMENTARIOS (Fila 2, posiciones 1 a 5) ---
     "Estilo 31": (
-        "Melena de longitud media con volumen masivo y textura ondulada. Presenta una raya lateral tenue a la derecha, "
-        "proyectando ondas y bucles gruesos que caen de forma fluida y pesada hacia el lado izquierdo y hacia atrás, "
-        "denotando un movimiento dinámico de gran densidad capilar."
+        "ESTILO: Long Wavy Flow con Raya Lateral (Estilo 'Mane'). "
+        "DIRECCIÓN: Partición difusa a la derecha, proyectando una gran masa capilar ondulada hacia la izquierda y atrás. "
+        "TIPO DE PELO: Ondulado grueso (2B/2C), gran resiliencia y volumen nativo. "
+        "LONGITUD Y ALTURA: Longitud larga-media (18-20 cm) que cubre totalmente las orejas y cae hacia la nuca. "
+        "TEXTURA Y COLOR: Textura salvaje controlada con crema hidratante, acabado satinado; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia bohemia sofisticada y seductora. Ideal para eventos de gala informales en la playa, festivales de música clásica contemporánea y cócteles de tarde."
     ),
     "Estilo 32": (
-        "Corte Quiff moderno. La zona de la corona se mantiene corta, mientras que el flequillo superior se eleva "
-        "con volumen vertical pronunciado, direccionándose hacia atrás y levemente a la derecha. Los laterales "
-        "están pulidos con un degradado medio que acentúa la altura del copete frontal."
+        "ESTILO: Textured Modern Quiff. "
+        "DIRECCIÓN: Elevación frontal pronunciada de atrás hacia adelante con el flequillo que quiebra hacia atrás en la punta. "
+        "TIPO DE PELO: Lacio u ondulado, grosor medio, densidad alta con buena elasticidad de raíz. "
+        "LONGITUD Y ALTURA: Superior largo en la sección frontal (7-8 cm) decreciendo a la coronilla; laterales con degradado medio. "
+        "TEXTURA Y COLOR: Textura dinámica con hilos definidos, acabado mate con polvos de volumen; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia casual refinada y juvenil. Va excelente para directores de startups tecnológicas, agencias de publicidad exclusivas y cenas formales de fin de semana."
     ),
     "Estilo 33": (
-        "Faux Hawk (cresta) de perfil suavizado. El centro de la zona superior está peinado desde ambos lados hacia "
-        "el eje medio, formando una cresta sutil, texturizada y con movimiento inclinado hacia adelante. Los laterales "
-        "se presentan cortos con una transición progresiva y limpia hacia las patillas."
+        "ESTILO: Soft Faux Hawk (Cresta Urbana Suave). "
+        "DIRECCIÓN: Orientación sutil de los laterales superiores hacia el centro, creando un lomo texturizado lineal. "
+        "TIPO DE PELO: Lacio medio, densidad alta con buena respuesta a ceras de fijación media. "
+        "LONGITUD Y ALTURA: Eje central de 5 cm, reduciendo sutilmente en los laterales parietales altos; degradado medio cónico. "
+        "TEXTURA Y COLOR: Textura entrelazada desordenada, acabado mate natural; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia casual de fin de semana. Adecuado para almuerzos ejecutivos casuales, viajes de descanso premium y eventos recreativos exclusivos."
     ),
     "Estilo 34": (
-        "Peinado Executive Slick Back (peinado formal hacia atrás). El cabello superior es largo y está peinado "
-        "completamente hacia atrás de forma compacta y direccional, con una sutil inclinación hacia la derecha. Los "
-        "laterales presentan un desvanecido alto que expone limpiamente la zona temporal."
+        "ESTILO: Slick Back High Fade (Peinado Hacia Atrás Formal Moderno). "
+        "DIRECCIÓN: Peinado unidireccional plano y compacto hacia atrás con sutil desviación diagonal a la derecha. "
+        "TIPO DE PELO: Lacio, grosor medio, densidad alta. "
+        "LONGITUD Y ALTURA: Superior largo (8-9 cm) pegado al cráneo, laterales con desvanecido alto pulido desde el cero. "
+        "TEXTURA Y COLOR: Textura compacta y uniforme, fijado con cera pomada de brillo medio; color castaño oscuro. "
+        "ELEGANCIA Y DESTINO: Elegancia corporativa agresiva y moderna. Perfecto para el sector inmobiliario de lujo, finanzas de Wall Street, casinos premium y eventos formales nocturnos."
     ),
     "Estilo 35": (
-        "Recogido pulido de alta tensión (Top Knot). Toda la masa capilar se encuentra estirada firmemente hacia "
-        "atrás de manera completamente simétrica y pegada al cuero cabelludo, concentrándose y sujetándose en un "
-        "moño o rodete compacto ubicado exactamente en el vértice superior-posterior del cráneo."
+        "ESTILO: Avant-Garde High Top Knot (Moño Alto de Pasarela). "
+        "DIRECCIÓN: Máxima tracción simétrica de tensión hacia la cúspide (corona alta) de la cabeza. "
+        "TIPO DE PELO: Lacio absoluto, grosor fino-medio, alta densidad capilar. "
+        "LONGITUD Y ALTURA: Longitud larga (mínimo 22 cm) compactada en un mini moño esférico pulcro en la cima; laterales tirantes. "
+        "TEXTURA Y COLOR: Textura pulida efecto cristal, libre de imperfecciones, fijación extrema con laca brillante; color negro profundo. "
+        "ELEGANCIA Y DESTINO: Elegancia conceptual/editorial máxima. Exclusivo para pasarelas internacionales de alta costura, eventos artísticos de élite, inauguraciones de arquitectura de vanguardia y entornos andróginos de lujo."
     )
 }
 # --- ESTILOS CSS ---
