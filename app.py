@@ -51,17 +51,28 @@ os.environ["REPLICATE_API_TOKEN"] = st.secrets["REPLICATE_API_TOKEN"]
 def mandar_prompt(imagen_bytes, instruccion_final):
     try:
         prompt_final = (
-            "A professional studio portrait of the EXACT SAME PERSON from the input image. "
-            "Maintain their precise facial features, identity and expression. "
-            f"Only change the hair style to: {instruccion_final}. "
-            "Highly detailed hair texture, 8k resolution, realistic lighting."
-            "A hyper-realistic studio portrait of the exact same person from the input image. "
-            "Maintain their precise facial features, identity, expression, and neck structure. "
-            "Do not change the person's face. Only modify the hair: apply a professional "
-            "I forbid you from modifying any detail of the face, only the person's hair; the entire face must remain the same."
-            "Maintain the identical photo structure, facial position, feature structure and expression"
-            "cinematic studio lighting."
-        )
+                f"A professional studio portrait of the SAME PERSON as in the input image.
+
+                Keep their facial features, identity, and expression exactly the same.
+
+                Only change the hairstyle to: {instruccion_final}
+
+                Highly detailed hair texture, 4k resolution.
+
+                A hyperrealistic studio portrait of the same person as in the input image.
+
+                Keep their facial features, identity, expression, and neck structure exactly the same.
+
+                Do not change the person's face. Only modify the hair.
+
+                I forbid you from modifying any details of the face, only the hair; the entire face must remain the same.
+
+                Maintain the same photo structure, facial position, feature structure, and expression.
+
+                Cinematic studio lighting.
+
+                I want you to change the hair exactly as the prompt asks and replicate it exactly as instructed.
+        ")
         output = replicate.run(
             "google/nano-banana-2",
             input={
