@@ -15,7 +15,7 @@ descripciones = {"Corte de Barba":'I want the haircut to have a sleek, straight-
 catálogo_cortes = {
     # --- FILA 1 ---
     "Corte de Barba": (
-         "pelado".
+         "pelado"
     ),
     "Cabello Largo": (
         "Melena larga de caída libre que se extiende hasta los hombros, dividida de forma simétrica por una "
