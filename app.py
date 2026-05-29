@@ -14,49 +14,190 @@ descripciones = {"Corte de Barba":'I want the haircut to have a sleek, straight-
                  }
 catálogo_cortes = {
     # --- FILA 1 ---
-    "Corte de Barba": "Hombre con una barba larga, densa y bien perfilada, combinada con un corte de cabello corto y peinado de forma pulcra.",
-    "Cabello Largo": "Cabello largo que llega hasta los hombros, con ondas naturales muy suaves y raya en medio.",
-    "Desvanecido": "Vista de perfil de un corte con degradado alto (fade) en los laterales y el cabello superior más largo, peinado hacia arriba.",
-    "Cresta Alta": "Corte de estilo 'faux hawk' con laterales muy cortos y una cresta pronunciada y estilizada hacia el centro y arriba.",
-    "Pelo Corto Desordenado": "Cabello corto con un estilo texturizado, despeinado y desenfadado en la parte superior, con lados rebajados.",
-    "Mechones Largos": "Corte de longitud media con mechones largos y lacios que caen hacia el frente y los lados en forma de cortina.",
-    "Corte de Cepillo": "Corte clásico estilo 'crew cut', muy corto y uniforme en los laterales con la parte superior ligeramente más larga.",
-    "Peinado Hacia Lado": "Corte clásico formal con una raya lateral bien definida y el cabello perfectamente peinado hacia el costado.",
-    "Atrás Desvanecido": "Cabello superior largo y peinado completamente hacia atrás con volumen, acompañado de un degradado limpio en los lados.",
-    "Recogido Atrás": "Hombre con cabello largo peinado totalmente hacia atrás y recogido (estilo 'man bun'), con barba corta de pocos días.",
+    "Corte de Barba": (
+        "Cabello superior con volumen medio, texturizado hacia arriba y con un sutil direccionamiento "
+        "hacia la izquierda. Los laterales presentan un degradado medio (Mid Fade) limpio. Se integra con "
+        "una barba completa de alta densidad, con líneas de pómulos perfiladas en diagonal recta, bigote denso "
+        "conectado y un acabado cuadrado y simétrico en la zona del mentón."
+    ),
+    "Cabello Largo": (
+        "Melena larga de caída libre que se extiende hasta los hombros, dividida de forma simétrica por una "
+        "raya en medio perfectamente definida. Presenta ondas naturales fluidas en el tercio inferior, con "
+        "mechones frontales que caen de forma orgánica hacia los lados y puntas texturizadas con movimiento."
+    ),
+    "Desvanecido": (
+        "Vista de perfil que expone un degradado alto (High Fade) pulido al milímetro, que descubre la piel "
+        "por encima de la oreja. La zona superior exhibe un copete estilizado (estilo Pompadour) de longitud "
+        "media-larga, peinado verticalmente con un sutil quiebre hacia atrás y volumen estructurado desde la raíz."
+    ),
+    "Cresta Alta": (
+        "Corte de estilo Faux Hawk (cresta falsa) de gran impacto. Los paneles laterales se presentan "
+        "sumamente cortos con un degradado alto y nítido. El bloque central de cabello se eleva de forma cónica, "
+        "convergiendo en puntas afiladas y esculpidas que se proyectan hacia adelante desde la coronilla hasta la frente."
+    ),
+    "Pelo Corto Desordenado": (
+        "Cabello de longitud corta-media con un acabado altamente texturizado y desfilado en la zona superior, "
+        "creando mechones multidireccionales con efecto mate y movimiento desenfadado. Los laterales y la nuca "
+        "están rebajados a máquina con una transición suave y patillas cortas."
+    ),
+    "Mechones Largos": (
+        "Corte de longitud media de estilo clásico 'curtain haircut' (corte de cortina). El cabello se distribuye "
+        "con fluidez hacia ambos lados desde una raya central superior, mostrando mechones lisos y pesados que caen "
+        "verticalmente, con las puntas sutilmente desfiladas hacia el interior."
+    ),
+    "Corte de Cepillo": (
+        "Corte estilo Crew Cut de precisión. La zona superior mantiene una longitud corta y uniforme, peinada "
+        "levemente hacia el frente con la línea frontal cepillada hacia arriba en un ángulo limpio. Los laterales "
+        "y la nuca se desvanecen de forma progresiva con un degradado medio."
+    ),
+    "Peinado Hacia Lado": (
+        "Peinado ejecutivo clásico con una raya lateral izquierda profundamente definida. El bloque de cabello "
+        "superior está direccionado de manera impecable hacia la derecha con un acabado pulido, liso y plano. "
+        "Los laterales muestran un corte clásico con tijera que disminuye su longitud de forma armónica hacia las orejas."
+    ),
+    "Atrás Desvanecido": (
+        "Estilo Slick Back moderno de alto contraste. El cabello de la zona superior posee una longitud considerable "
+        "y se proyecta en su totalidad hacia atrás con volumen controlado y fijación firme. Los laterales están "
+        "trabajados con un degradado medio (Mid Fade) que estiliza la estructura craneal."
+    ),
+    "Recogido Atrás": (
+        "Masa capilar larga y densa, traccionada por completo hacia la zona occipital media para formar un "
+        "moño recogido (man bun) compacto, limpio y libre de cabellos sueltos. Se complementa en la zona inferior "
+        "con una barba corta de tres días de longitud uniforme y contornos naturales."
+    ),
 
-    # --- FILA 2 (Cortes continuos de la fila) ---
-    "Cabello Rizado Liso": "Estilo de cabello muy rizado y compacto con gran volumen y forma redondeada (tipo afro corto), etiquetado con esa contradicción en la fila 2.",
-    "Militar Corto": "Corte de cabello extremadamente corto y uniforme en toda la cabeza, estilo rapado militar clásico ('buzz cut').",
-    "Hacia Arriba": "Cabello corto peinado verticalmente con un acabado texturizado y puntas definidas mediante gel o cera.",
-    "Arriba Textura": "Variación de peinado corto hacia arriba con textura desordenada y laterales sutilmente rebajados.",
+    # --- FILA 2 ---
+    "Cabello Rizado Liso": (
+        "Estructura capilar afro corta y compacta. Presenta una textura de rizos densos, pequeños y cerrados "
+        "que se expanden de forma simétrica creando una silueta esférica y uniforme en la parte superior, "
+        "acompañada de laterales sutilmente rebajados para mantener la proporción de la corona."
+    ),
+    "Militar Corto": (
+        "Corte Buzz Cut tradicional ejecutado a una longitud ultra corta y uniforme en toda la cabeza (número 1 "
+        "o 1.5). Destaca por la máxima precisión geométrica en los contornos, mostrando una línea frontal y sienes "
+        "delineadas de forma quirúrgica en ángulos rectos."
+    ),
+    "Hacia Arriba": (
+        "Cabello corto esculpido en picos verticales (estilo Spiky). La zona superior está texturizada en bloques "
+        "angulares orientados hacia el centro y arriba con un producto de fijación fuerte. Los laterales muestran "
+        "un desvanecido alto con patillas terminadas en punta fina."
+    ),
+    "Arriba Textura": (
+        "Variación de peinado corto elevado. La zona superior presenta un denso trabajo de entresacado que genera "
+        "textura en capas cortas, peinadas hacia adelante y hacia arriba en la frente. Los laterales están "
+        "recortados limpiamente con una transición sutil de longitud hacia la base."
+    ),
 
     # --- FILA 3 ---
-    "Mechones Largos 2": "Cabello de longitud media tirando a larga, con ondas naturales que caen de forma relajada a los lados del rostro.",
-    "Rizado Liso 2": "Cabello ondulado o rizado de longitud media, peinado con un aspecto natural, suelto y con movimiento.",
-    "Afro Largo": "Corte estilo afro clásico de gran tamaño, muy voluminoso, con rizos densos, compactos y forma perfectamente redonda.",
-    "Militar Corto 2": "Corte militar muy rebajado y limpio, con contornos de la frente y patillas perfectamente definidos.",
-    "Largo de Capas": "Melena larga y lacia que cae por debajo de los hombros, con un corte ligero en capas para dar movimiento.",
-    "Desvanecido Bajo": "Corte con un degradado sutil que empieza muy bajo (cerca de las orejas), manteniendo la parte superior corta y prolija.",
-    "Casual Texturizado": "Estilo moderno con textura desordenada en la parte superior y laterales cortos, ideal para un look del día a día.",
-    "Undercut Peinado": "Laterales muy cortos con una desconexión clara hacia la parte superior, la cual está peinada hacia un lado.",
+    "Mechones Largos 2": (
+        "Cabello de longitud media-larga con una partición orgánica y ligeramente descentrada. Mechones gruesos "
+        "con ondas naturales de calibre medio caen libremente hacia los costados superando la línea de la mandíbula, "
+        "exhibiendo un volumen fluido, cuerpo y un movimiento natural texturizado."
+    ),
+    "Rizado Liso 2": (
+        "Estilo ondulado de longitud media con textura relajada. El cabello de la parte superior está direccionado "
+        "hacia atrás y levemente inclinado a la izquierda, permitiendo que rizos abiertos y bucles suaves se abran "
+        "y caigan de manera natural hacia los laterales con volumen ligero."
+    ),
+    "Afro Largo": (
+        "Corte Afro clásico de máxima densidad y volumen. Presenta una distribución geométrica perfectamente esférica "
+        "y expandida, estructurada a base de rizos hiper-densos, compactos y elásticos que mantienen una forma "
+        "redonda impecable desde cualquier ángulo."
+    ),
+    "Militar Corto 2": (
+        "Corte estilo High and Tight (Alto y Ajustado) de precisión militar. La porción superior es sumamente corta, "
+        "plana y compacta, mientras que los laterales y la nuca se conectan de inmediato con un desvanecido total "
+        "a la piel (Skin Fade), manteniendo la línea frontal recta."
+    ),
+    "Largo de Capas": (
+        "Melena larga de textura completamente lacia que se extiende por debajo de la línea de los hombros. "
+        "Está estructurada mediante un sutil corte en capas en las puntas para aligerar el peso, distribuida "
+        "equitativamente a ambos lados a partir de una raya al medio exacta."
+    ),
+    "Desvanecido Bajo": (
+        "Corte de estructura cuadrada en la zona superior, con el cabello corto-medio peinado de manera compacta "
+        "hacia el frente y un flequillo recto. Los laterales presentan un degradado bajo (Low Fade) impecable que "
+        "limpia exclusivamente el perímetro de la oreja y la nuca baja."
+    ),
+    "Casual Texturizado": (
+        "Corte texturizado de estilo urbano contemporáneo. La corona y la zona superior muestran capas cortas "
+        "superpuestas que aportan un volumen desordenado y direccionado hacia el frente en puntas suaves. Los laterales "
+        "se mantienen cortos, limpios y pegados al cráneo."
+    ),
+    "Undercut Peinado": (
+        "Corte desconectado de alto contraste. Los laterales y la nuca están rasurados uniformemente a una longitud "
+        "mínima sin degradado (Undercut puro), mientras que el bloque superior largo se peina de forma compacta, "
+        "plana y pulida hacia el lado derecho, acentuando la línea de desconexión."
+    ),
 
     # --- FILA 4 ---
-    "Corte de Barba 2": "Hombre con una barba completa muy larga y de corte cuadrado, complementada con un corte de cabello muy corto.",
-    "Corte de Bargo": "Hombre con barba densa, tupida y bien recortada, combinada con un estilo de cabello corto y peinado formal (etiquetado con error ortográfico de IA).",
-    "Desvanecido Bajo 2": "Degradado bajo en las sienes y nuca con el cabello superior denso, corto y peinado hacia adelante.",
-    "Desvanecido Bajo 3": "Corte texturizado corto en la parte superior que se va desvaneciendo suavemente hacia los lados (etiquetado 'Desssvanecido Bajo').",
-    "Casual Texturizado 2": "Cabello corto con textura suave en la parte superior, peinado hacia el frente de manera casual y relajada.",
-    "Clásico Hacia Lado": "Look tradicional, muy pulcro, con raya lateral y el cabello asentado perfectamente con fijador.",
-    "Barba Completa": "Hombre con una barba frondosa y larga recortada en forma de pico, combinada con cabello muy corto en la cabeza.",
-    "Undercut Peinado 2": "Corte con los laterales muy rebajados y el cabello superior largo y peinado hacia un lado con bastante volumen.",
+    "Corte de Barba 2": (
+        "Diseño de barba completa de gran longitud, esculpida con líneas de mejilla rectas y un acabado inferior "
+        "plano, denso e hiper-perfilado de forma cuadrada. El cabello de la cabeza se mantiene corto, con "
+        "textura superior orientada al frente y laterales integrados en degradado hacia la patilla."
+    ),
+    "Corte de Bargo": (
+        "Estructura capilar clásica con cabello superior corto-medio peinado con volumen hacia atrás y sutilmente "
+        "hacia la derecha. Se integra de manera fluida con una barba completa de longitud media, densa y con "
+        "contornos delineados con precisión tanto en las mejillas como en la línea del cuello."
+    ),
+    "Desvanecido Bajo 2": (
+        "Corte estilo French Crop texturizado. La porción superior se proyecta totalmente hacia adelante, finalizando "
+        "en un flequillo corto, denso y de corte horizontal recto en la frente. Los laterales se definen mediante "
+        "un degradado bajo que conserva grosor en la zona parietal superior."
+    ),
+    "Desvanecido Bajo 3": (
+        "Corte texturizado corto con picos definidos y desfilados en la zona superior, orientados hacia la frente. "
+        "Los laterales y la nuca muestran un degradado bajo-medio (Low-Mid Fade) que limpia las patillas y se conecta "
+        "con suavidad hacia la densidad de la coronilla."
+    ),
+    "Casual Texturizado 2": (
+        "Diseño de cabello corto con capas superiores densas trabajadas a tijera para generar una textura suave, "
+        "peinada hacia adelante de manera casual y orgánica. Los laterales y contornos están rebajados de forma "
+        "uniforme, manteniendo patillas clásicas de grosor medio."
+    ),
+    "Clásico Hacia Lado": (
+        "Peinado formal de etiqueta con una raya lateral izquierda sumamente nítida. El cabello superior está pulido "
+        "hacia el lado derecho y ligeramente hacia atrás con un acabado brillante de alta fijación (pomada efecto húmedo). "
+        "Los laterales están recortados de manera clásica con tijera sobre peine."
+    ),
+    "Barba Completa": (
+        "Barba majestuosa de gran densidad esculpida geométricamente en forma de cuña o 'pico' pronunciado hacia "
+        "el mentón, con líneas de pómulo impecables. El cabello de la cabeza se mantiene extremadamente corto "
+        "y degradado a la piel, creando un contraste radical con la opulencia de la barba."
+    ),
+    "Undercut Peinado 2": (
+        "Estructura Undercut de laterales muy rebajados a máquina. El bloque superior, de longitud considerable, "
+        "se peina hacia atrás y hacia el lado derecho de forma diagonal, logrando un volumen elevado en la zona del "
+        "flequillo mediante técnicas de soplado (secador) y fijación estructurada."
+    ),
 
-    # --- ESTILOS COMPLEMENTARIOS (Los 5 que faltaban de la fila 2) ---
-    "Estilo 31": "Cabello de longitud media con ondas pronunciadas y volumen natural que enmarca el rostro (Fila 2, posición 1 - 'Cabello Barnas').",
-    "Estilo 32": "Corte con degradado limpio en los laterales y cabello corto-medio texturizado en la zona superior (Fila 2, posición 2 - 'Desvanecido').",
-    "Estilo 33": "Peinado con los laterales cortos y una cresta más sutil, concentrada hacia la parte frontal y central de la cabeza (Fila 2, posición 3 - 'Cresta Alta').",
-    "Estilo 34": "Cabello fijado hacia atrás de forma más plana, combinado con un desvanecido alto en los costados (Fila 2, posición 4 - 'Peinado hacia atrás desvanecido').",
-    "Estilo 35": "Rostro femenino con el cabello oscuro completamente recogido hacia atrás en un moño alto (Fila 2, posición 5 - 'Recogido atrás')."
+    # --- ESTILOS COMPLEMENTARIOS (Fila 2, posiciones 1 a 5) ---
+    "Estilo 31": (
+        "Melena de longitud media con volumen masivo y textura ondulada. Presenta una raya lateral tenue a la derecha, "
+        "proyectando ondas y bucles gruesos que caen de forma fluida y pesada hacia el lado izquierdo y hacia atrás, "
+        "denotando un movimiento dinámico de gran densidad capilar."
+    ),
+    "Estilo 32": (
+        "Corte Quiff moderno. La zona de la corona se mantiene corta, mientras que el flequillo superior se eleva "
+        "con volumen vertical pronunciado, direccionándose hacia atrás y levemente a la derecha. Los laterales "
+        "están pulidos con un degradado medio que acentúa la altura del copete frontal."
+    ),
+    "Estilo 33": (
+        "Faux Hawk (cresta) de perfil suavizado. El centro de la zona superior está peinado desde ambos lados hacia "
+        "el eje medio, formando una cresta sutil, texturizada y con movimiento inclinado hacia adelante. Los laterales "
+        "se presentan cortos con una transición progresiva y limpia hacia las patillas."
+    ),
+    "Estilo 34": (
+        "Peinado Executive Slick Back (peinado formal hacia atrás). El cabello superior es largo y está peinado "
+        "completamente hacia atrás de forma compacta y direccional, con una sutil inclinación hacia la derecha. Los "
+        "laterales presentan un desvanecido alto que expone limpiamente la zona temporal."
+    ),
+    "Estilo 35": (
+        "Recogido pulido de alta tensión (Top Knot). Toda la masa capilar se encuentra estirada firmemente hacia "
+        "atrás de manera completamente simétrica y pegada al cuero cabelludo, concentrándose y sujetándose en un "
+        "moño o rodete compacto ubicado exactamente en el vértice superior-posterior del cráneo."
+    )
 }
 # --- ESTILOS CSS ---
 st.markdown("""
