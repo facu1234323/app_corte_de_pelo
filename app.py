@@ -15,10 +15,7 @@ descripciones = {"Corte de Barba":'I want the haircut to have a sleek, straight-
 catálogo_cortes = {
     # --- FILA 1 ---
     "Corte de Barba": (
-        "Cabello superior con volumen medio, texturizado hacia arriba y con un sutil direccionamiento "
-        "hacia la izquierda. Los laterales presentan un degradado medio (Mid Fade) limpio. Se integra con "
-        "una barba completa de alta densidad, con líneas de pómulos perfiladas en diagonal recta, bigote denso "
-        "conectado y un acabado cuadrado y simétrico en la zona del mentón."
+         "pelado".
     ),
     "Cabello Largo": (
         "Melena larga de caída libre que se extiende hasta los hombros, dividida de forma simétrica por una "
